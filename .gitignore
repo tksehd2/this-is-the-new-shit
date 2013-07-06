@@ -1,0 +1,7 @@
+
+*.csproj
+
+*.pidb
+
+Library/metadata
+Library/ScriptAssemblies

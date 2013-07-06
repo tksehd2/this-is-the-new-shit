@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player.cs">
+    <Files>
+      <File FileName="../../../Downloads/GangnamRunner-master/Assets/Scripts/GameStateMachine.cs" Line="62" Column="6" />
+      <File FileName="Assets/Scripts/GameMode/MenuMode.cs" Line="9" Column="3" />
+      <File FileName="Assets/Scripts/GameMode/GameMode.cs" Line="7" Column="38" />
+      <File FileName="Assets/Scripts/GameMode/ArcadeMode.cs" Line="36" Column="2" />
+      <File FileName="Assets/Scripts/GameMode/ShopMode.cs" Line="36" Column="3" />
+      <File FileName="Assets/Player.cs" Line="11" Column="3" />
+      <File FileName="Assets/Scripts/PlayerPrefsX.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UITweenManager.cs" Line="12" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
