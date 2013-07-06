@@ -14,13 +14,16 @@ public class GameMode : MonoBehaviour
 		OPTION_MODE,
 	}
 	
-	protected eGameMode _mode;
+	protected eGameMode _modeId;
 	
 	protected GameMode(eGameMode mode)
 	{
-		_mode = mode;
+		_modeId = mode;
 	}
-	
+	public eGameMode ModeID
+	{
+		get { return _modeId; }	
+	}
 	public virtual bool isPausable
 	{
 		get { return false; }		

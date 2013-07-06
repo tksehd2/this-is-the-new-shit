@@ -2,7 +2,9 @@ using UnityEngine;
 using System.Collections;
 
 public class MenuMode : GameMode
-{
+{	
+	UITweenManager[] _modeTransition;
+	
 	public MenuMode() : base(GameMode.eGameMode.MENU_MODE)
 	{
 		
@@ -17,10 +19,15 @@ public class MenuMode : GameMode
 	
 	public override void OnEnterMode ()
 	{
+		_modeTransition = GUIManager.Instance.FindTransitionById(_modeId);
+		
+		_modeTransition[0].PlayById("show");
+		
 		base.OnEnterMode ();
 	}
 	public override void OnLeaveMode ()
 	{
+		_modeTransition[0].PlayById("hide");
 		base.OnLeaveMode ();
 	}
 	public override void OnPause ()
